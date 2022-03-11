@@ -2,7 +2,7 @@
 @author: Zhang Jinpeng
 @created： 2019.12.06
 @version: Python3.7
-@description: 将神经网络进行图结构编码
+@description: 将流进行图结构编码
 @email: zhangjinpeng2117@foxmail.com
 '''
 # encoding: utf8
@@ -987,13 +987,13 @@ def genTixingGaphitems(flowLen):
 
 
 def main():
-    #extractDownLenandFlagNF('data/ALL/', 'feature/DAPP.txt')
+    extractDownLenandFlagNF('data/ALL/', 'feature/DAPP.txt')
     extractDownLenandFlagBiTixing('data/ALL/', 'feature/DAPPBI.txt')
-    #extractDownLenandFlagBi('data/ALL/', 'feature/DAPPBI.txt')
-    #extractDownLenandFlagBi('data/FFFC/', 'feature/DAPPBIF.txt')
-    #extractDownLenandFlagBiDuo('data/ALL/', 'feature/DAPPBI.txt')
-    #extractDownLenandFlagBiDuo('data/TTTT/', 'feature/DAPPBI.txt')
-    #extractDownLenandFlagGFlist('data/TTTT/', 'feature/DAPP.txt')
+    extractDownLenandFlagBi('data/ALL/', 'feature/DAPPBI.txt')
+    extractDownLenandFlagBi('data/FFFC/', 'feature/DAPPBIF.txt')
+    extractDownLenandFlagBiDuo('data/ALL/', 'feature/DAPPBI.txt')
+    extractDownLenandFlagBiDuo('data/TTTT/', 'feature/DAPPBI.txt')
+    extractDownLenandFlagGFlist('data/TTTT/', 'feature/DAPP.txt')
 
 
 if __name__=='__main__':
